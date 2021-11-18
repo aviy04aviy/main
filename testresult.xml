@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testrun name="MyClassTest" project="ITSMProject" tests="4" started="4" failures="1" errors="0" ignored="1">
   <testsuite name="de.vogella.junit.first.MyClassTest" time="0.0">
-    <testcase name="testMultiply" classname="de.vogella.junit.first.MyClassTest" time="0.0">
+    <testcase name="Add Admin Test" classname="de.vogella.junit.first.MyClassTest" time="0.0">
       <failure>java.lang.AssertionError: Result expected:&lt;50&gt; but was:&lt;2&gt;&#13;
 	at org.junit.Assert.fail(Assert.java:91)&#13;
 	at org.junit.Assert.failNotEquals(Assert.java:645)&#13;
@@ -34,8 +34,8 @@
 &#13;
 </failure>
     </testcase>
-    <testcase name="testSubstract" classname="de.vogella.junit.first.MyClassTest" time="0.0"/>
-    <testcase name="testAdd" classname="de.vogella.junit.first.MyClassTest" time="0.0"/>
+    <testcase name="Edit Admin Test" classname="de.vogella.junit.first.MyClassTest" time="0.0"/>
+    <testcase name="Add Simple User Test" classname="de.vogella.junit.first.MyClassTest" time="0.0"/>
     <testcase name="testDivide" classname="de.vogella.junit.first.MyClassTest" time="0.0" ignored="true"/>
   </testsuite>
 </testrun>
